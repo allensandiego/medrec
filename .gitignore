@@ -1,0 +1,66 @@
+# Android Studio and Gradle
+.gradle
+build/
+local.properties
+.idea/
+*.iml
+*.hprof
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.swp
+*~
+*.keystore
+*.jks
+captures/
+.externalNativeBuild
+.DS_Store
+
+# Node.js and Parse Server
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+*.log
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Gemini
+.gemini/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.project
+.pydevproject
+.settings
+logs
+*.log
+.classpath
+.buildpath
+factoryConfiguration.json
+.idea
+*.iws
+*.ipr
+*.iml
+*.hprof
+.externalNativeBuild
+.cxx
+*~
+*.swp
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
