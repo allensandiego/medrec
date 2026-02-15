@@ -32,6 +32,7 @@ package-lock.json
 
 # Gemini
 .gemini/
+.agent/
 
 # Operating System Files
 .DS_Store
