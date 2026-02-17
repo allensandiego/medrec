@@ -102,6 +102,7 @@ cat > "$CONFIG_FILE" <<EOF
   "serverURL": "http://localhost:$PORT/parse",
   "publicServerURL": "http://localhost:$PORT/parse",
   "port": $PORT,
+  "cloud": "$APP_DIR/cloud/main.js",
   "allowClientClassCreation": false,
   "enableAnonymousUsers": false
 }
@@ -172,4 +173,4 @@ fi
 
 echo "Database Password (for reference): $DB_PASS"
 echo ""
-echo "You can manage the servers using: pm2 status / pm2 logs" (ID: 3997c0b6-76f3-4d22-b2ef-d43eaf928893)
+echo "You can manage the servers using: pm2 status / pm2 logs"

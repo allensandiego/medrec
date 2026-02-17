@@ -83,6 +83,7 @@ cobalt-viking/
 ### Prerequisites
 - **Node.js** ≥ 18
 - **PostgreSQL** ≥ 14
+- **Git**
 - **Angular CLI** ≥ 19
 - **Android Studio** (for mobile app)
 
@@ -159,10 +160,18 @@ This guide explains how to deploy the MedRec infrastructure on your own Linux se
 
 We provide an automated script to set up Parse Server, Dashboard, and PostgreSQL with a dedicated database user.
 
-1.  **Upload the project** to your server.
-2.  Run the installation script:
+First, ensure you have Git installed:
 
 ```bash
+sudo apt update
+sudo apt install -y git
+```
+
+Then, clone the repository and run the installation script from within the project directory:
+
+```bash
+git clone https://github.com/allensandiego/medrec.git
+cd medrec
 chmod +x INSTALL.sh
 # Must run as root to create users and install packages
 sudo ./INSTALL.sh --no-dashboard # Add --no-dashboard to skip dashboard
